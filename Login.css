@@ -1,0 +1,109 @@
+
+.In-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 50vh;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 15px;
+}
+
+.Out-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 110vh;
+  background: #e96443;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+}
+
+#Pno{
+  margin: 10px;
+  margin-top: 1px;
+  margin-bottom: 7%;
+}
+
+#pwd{
+  margin: 10px;
+}
+#h{
+  margin: 25px 50px 30px 50px;
+  color: #0E1111;
+  font-family: 'Caveat', cursive;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.text{
+  border: 2px solid black;
+  height: 26px;
+  width: 200px;
+  border-radius: 7px;
+  padding: 15px 40px 15px 2px;
+}
+
+.bi{
+  margin-right: 6px;
+  margin-bottom: 5px;
+}
+.bi-lock{
+  margin-right:5px;
+}
+
+.btn{
+  margin-top: 30px;
+  margin-left: 55px;
+  width: 125px;
+  background-color:#0E1111;
+}
+#Register{
+  font-weight: 700;
+}
+
+#new-acc{
+  margin-left: 20px;
+}
+
+#email{
+  margin-left: 4%;
+  margin-bottom: 7%;
+}
+#pwd-confirm{
+  margin-top: 10px;
+  margin-top: 7%;
+}
+
+.signup{
+  height: 60vh;
+}
+
+.pass{
+  width: 170px;
+  margin-right: 4%;
+}
+
+@media (max-width:600px){
+  .In-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 40vh;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+  }
+  
+}
